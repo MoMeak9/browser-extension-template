@@ -26,9 +26,6 @@ export default defineConfig(({ mode }) => {
       chunkSizeWarningLimit: 1024,
       rollupOptions: {
         output: {
-          manualChunks: {
-            "ant-design": ["ant-design-vue", "@ant-design/icons-vue"]
-          },
           chunkFileNames: "js/[name]-[hash].js",
           entryFileNames: "js/[name]-[hash].js",
           assetFileNames: info =>

@@ -8,7 +8,7 @@
     "build": "vite build",
     "watch": "vite build --watch --mode development",
     "check": "vue-tsc --noEmit",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git add . && git-cz"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +17,14 @@
     "@types/chrome": "^0.0.244",
     "@types/node": "^20.5.9",
     "@types/webextension-polyfill": "^0.10.2",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
     "@vitejs/plugin-vue": "^4.3.4",
     "@vue/compiler-sfc": "^3.3.4",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
     "sass": "^1.66.1",
     "typescript": "^5.2.2",
     "unplugin-vue-components": "^0.25.2",
