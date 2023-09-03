@@ -6,8 +6,9 @@ export default defineManifestV3({
   description: "__MSG_description__",
   version: process.env.npm_package_version!,
   default_locale: "zh_CN",
+  options_page: "index.html/options", // 选项页
   minimum_chrome_version: "88.0.0",
-  permissions: ["favicon"],
+  permissions: ["favicon", "storage"],
   optional_permissions: ["topSites"],
   host_permissions: [
     "https://cn.bing.com/",
